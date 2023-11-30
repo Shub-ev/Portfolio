@@ -1,0 +1,24 @@
+.NavbarAni{
+    animation: Navbar 2s ease forwards;
+}
+@keyframes Navbar {
+    0%{
+        top: -50vh;
+    }
+    100%{
+        top: 0vh;
+    }
+}
+
+.NavbarAni2{
+    top: -50vh;
+    animation: Navbar2 2s ease forwards;
+}
+@keyframes Navbar2 {
+    0%{
+        top: current;
+    }
+    100%{
+        top: -50vh;
+    }
+}
